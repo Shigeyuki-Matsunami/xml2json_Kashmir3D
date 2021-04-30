@@ -1,7 +1,10 @@
 # QGIS用のタイルマップのxmlフォーマットからカシミール3Dのjsonフォーマットへの変換コード  
  
 ## 概要  
-QGIS向けに作成したxmlタイルマップのxml表記からカシミール３D向けのjsonの記述への変換させるためのコードです． 
+QGIS向けに作成したxmlタイルマップのxml表記からカシミール３D向けのjsonの記述への変換させるためのコードです．  
+
+xmlファイルのオリジナルは下記のサイトとなります.   
+ https://github.com/japan-road-jp/KonjyakuMap_TileMap_for_QGIS
 
 ## 背景情報
 【GIS】#14　カシミール３D向け　今昔マップの旧版地形図タイルマップjsonファイル一式の公開．  
@@ -11,10 +14,6 @@ https://note.com/smatsu/n/na30de88b8f27
 ## 使い方
 
 【1】`code`ボタンから一式をダウンロード．
-
- なお，xmlファイルのオリジナルは下記のサイトとなります.   
- https://github.com/japan-road-jp/KonjyakuMap_TileMap_for_QGIS
-
 【2】xml2json_converter.pyをRunさせます．そうすると，フォルダ内で.jsonファイルが生成されます．  
 
 ## 動作確認  
