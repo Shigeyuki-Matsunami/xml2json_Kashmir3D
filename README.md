@@ -14,8 +14,8 @@ https://github.com/japan-road-jp/KonjyakuMap_TileMap_for_QGIS
 * OS: Win 10
 
 ## 必要なライブラリー  
-glob
-xmltodict
-json  
+* glob
+* xmltodict
+* json  
 
 ここではElementTreeなどのXMLパーサーを使わず，xmltodictというライブラリーを使い，xmlを辞書構造化させて必要なkey-valueを取得し，それをカシミール３Dの定形のjsonフォーマットへはめ込む方法をとっています．
