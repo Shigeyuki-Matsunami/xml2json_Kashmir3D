@@ -5,8 +5,9 @@ QGIS向けに作成したxmlタイルマップのxml表記からカシミール�
 
 ## 使い方
 
-1. `code`で一式をダウンロード
-　xmlファイルのオリジナルは下記のサイトとなります．．  
+1. `code`ボタンから一式をダウンロード．
+
+　なお，xmlファイルのオリジナルは下記のサイトとなります．．  
   https://github.com/japan-road-jp/KonjyakuMap_TileMap_for_QGIS
 
 1. .pyをRunさせます．（Spyderなど）  
