@@ -1,8 +1,9 @@
 # xml2json_Kashmir3D
  
+##概要  
 QGIS向けに作成したxmlタイルマップのxml表記からカシミール３D向けのjsonの記述への変換させるためのコードです．  
 
-# 必要なライブラリー  
+## 必要なライブラリー  
 glob
 xmltodict
 json  
