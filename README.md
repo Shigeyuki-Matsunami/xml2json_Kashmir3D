@@ -3,11 +3,12 @@
 ## 概要  
 QGIS向けに作成したxmlタイルマップのxml表記からカシミール３D向けのjsonの記述への変換させるためのコードです．  
 
-## xmlファイル
-xmlファイルはこちらの「今昔マップXYZ_tile全国版」にあるファイルが対象です．  
-https://github.com/japan-road-jp/KonjyakuMap_TileMap_for_QGIS
+## 使い方
 
+1. xmlファイルのオリジナルは下記のサイトとなります．．  
+  https://github.com/japan-road-jp/KonjyakuMap_TileMap_for_QGIS
 
+1. .pyをRunさせます．（Spyderなど）  
 
 ## 動作確認  
 * Python 3.7.6  
