@@ -29,7 +29,7 @@ import json
 def read_files(extension):
 
     # 読み込みファイルの取得
-    path = '*.' + extension
+    path = 'xml_file/*.' + extension
     input_files = glob.glob(path)
 
     # 読み込みファイル数の取得
