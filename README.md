@@ -9,9 +9,9 @@ https://github.com/japan-road-jp/KonjyakuMap_TileMap_for_QGIS
 
 
 
-## 動作確認
-・Python 3.7.6
-・OS: Win 10
+## 動作確認  
+* Python 3.7.6  
+* OS: Win 10
 
 ## 必要なライブラリー  
 glob
