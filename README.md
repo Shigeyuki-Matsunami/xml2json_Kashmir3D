@@ -7,7 +7,8 @@ QGIS向けに作成したxmlタイルマップのxml表記からカシミール�
 
 【1】`code`ボタンから一式をダウンロード．
 
-　なお，xmlファイルのオリジナルは下記のサイトとなります. https://github.com/japan-road-jp/KonjyakuMap_TileMap_for_QGIS
+ なお，xmlファイルのオリジナルは下記のサイトとなります.   
+ https://github.com/japan-road-jp/KonjyakuMap_TileMap_for_QGIS
 
 【2】xml2json_converter.pyをRunさせます．（Spyderなど）  
 
