@@ -1,4 +1,4 @@
-# xml2json_Kashmir3D
+# タイルマップのxmlからjsonへのpython変換コード  
  
 ## 概要  
 QGIS向けに作成したxmlタイルマップのxml表記からカシミール３D向けのjsonの記述への変換させるためのコードです．  
