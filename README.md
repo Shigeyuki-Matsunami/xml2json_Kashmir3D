@@ -4,7 +4,8 @@
 QGIS向けに作成したxmlタイルマップのxml表記からカシミール３D向けのjsonの記述への変換させるためのコードです． 
 
 ## 背景情報
-https://note.com/notes/na30de88b8f27/edit
+【GIS】#14　カシミール３D向け　今昔マップの旧版地形図タイルマップjsonファイル一式の公開．  
+https://note.com/smatsu/n/na30de88b8f27
 
 
 ## 使い方
