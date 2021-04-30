@@ -13,7 +13,7 @@ https://note.com/smatsu/n/na30de88b8f27
 
 ## 使い方
 
-【1】`code`ボタンから一式をダウンロード．
+【1】`code`ボタンから一式をダウンロード．  
 【2】xml2json_converter.pyをRunさせます．そうすると，フォルダ内で.jsonファイルが生成されます．  
 
 ## 動作確認  
