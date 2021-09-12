@@ -16,24 +16,25 @@ __author__ = "くにみち"
 __contact__ = "japan.road.jp@gmail.com"
 __license__ = "MIT"
 __copyright__ = "くにみち"
+__version__ = "1.1.0"
 __date__ = "2021/4/29"
 __reversed__ = "2021/9/12"
 
 
-#必要とする天秤座r－
+# 必要とするライブラリ
 import glob
 import xmltodict
 import json
 
-# 各種のユーティリティ関数の定義
-#ファイル読み込み関数
+
+# ファイル読み込み関数
 def read_files(extension):
 
     # 読み込みファイルの取得
     path = 'xml_file/*.' + extension
     input_files = glob.glob(path)
 
-    # 読み込みファイル数の取得
+    # ファイル数の取得
     number_of_files = len(input_files)
 
     return input_files, number_of_files
@@ -55,26 +56,24 @@ def set_patameter(tile_name, tile_url, max_zoom):
 
 # カシミール3Dのjsonスキーマ
 kashmir = [{
-"name":"",
-"copyright":"今昔マップ on the web",
-"url":"",
-"ext":"png",
-"no_ext":"false",
-"port":"80",
-"url_type":"standard",
-"denshi-kokudo_type":"map",
-"origin":"bottom_left",
-"min_zoom":"8",
-"max_zoom":"",
-"dem":"false",
-"dem_type":"yamatabi",
-}]
-
+    "name":"",
+    "copyright":"今昔マップ on the web",
+    "url":"",
+    "ext":"png",
+    "no_ext":"false",
+    "port":"80",
+    "url_type":"standard",
+    "denshi-kokudo_type":"map",
+    "origin":"bottom_left",
+    "min_zoom":"8",
+    "max_zoom":"",
+    "dem":"false",
+    "dem_type":"yamatabi",
+    }]
 
 
 # 実行処理
-if __name__ == '__main__':
-
+def main():
     #QGISのタイルレイヤの拡張子
     default_extension = 'xml'
     
@@ -100,6 +99,12 @@ if __name__ == '__main__':
             # jsonファイルとして出力
             with open(tile_name + '.json', 'w', encoding='utf-8') as f:
                 json.dump(kashmir,f, indent = 0, ensure_ascii=False)
-                print (kashmir)
+                print (kashmir) 
+    
+
+if __name__ == '__main__':
+    main()
+
+
     
       
