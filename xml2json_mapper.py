@@ -1,5 +1,5 @@
 #-------------------------------------------------
-# xml2json_converter.py
+# xml2json_mapper.py
 #
 # This software is released under the MIT License.
 #-------------------------------------------------
@@ -7,7 +7,7 @@
 
 
 """
-QGIS向けのタイルマップXMLからカシミール3D向けのタイルマップjson形式へのフォーマット変換
+QGIS向けのタイルマップXMLからカシミール3D向けのタイルマップjson形式へのマッピング変換
 xmlは複数ファイルを一括で変換するケースに対応．
 
 """
@@ -17,6 +17,7 @@ __contact__ = "japan.road.jp@gmail.com"
 __license__ = "MIT"
 __copyright__ = "くにみち"
 __date__ = "2021/4/29"
+__reversed__ = "2021/9/12"
 
 
 #必要とする天秤座r－
@@ -52,7 +53,7 @@ def set_patameter(tile_name, tile_url, max_zoom):
     
     return
 
-#カシミール3Dのjsonスキーマ
+# カシミール3Dのjsonスキーマ
 kashmir = [{
 "name":"",
 "copyright":"今昔マップ on the web",
